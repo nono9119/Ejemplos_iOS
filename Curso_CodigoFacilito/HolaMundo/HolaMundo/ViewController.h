@@ -11,9 +11,10 @@
 @interface ViewController : UIViewController
 {
     IBOutlet UILabel *labelHolaMundo;
+    IBOutlet UITextField *tfTexto;
 }
 
-- (IBAction)onClick:(id)sender;
-
+- (IBAction)onClick1:(id)sender;
+- (IBAction)onClick2:(id)sender;
 @end
 

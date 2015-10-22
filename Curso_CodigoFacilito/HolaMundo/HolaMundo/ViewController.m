@@ -13,9 +13,14 @@
 @end
 
 @implementation ViewController
-- (IBAction)onClick:(id)sender
+
+- (IBAction)onClick1:(id)sender
 {
     labelHolaMundo.text = @"¡Hola mundo!";
+}
+- (IBAction)onClick2:(id)sender
+{
+    labelHolaMundo.text = tfTexto.text;
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
