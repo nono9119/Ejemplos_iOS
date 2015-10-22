@@ -500,6 +500,7 @@
 				FF71582D1BD9462200D19AFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF71582E1BD9462200D19AFA /* Build configuration list for PBXNativeTarget "HolaMundoTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +509,7 @@
 				FF7158301BD9462200D19AFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF7158311BD9462200D19AFA /* Build configuration list for PBXNativeTarget "HolaMundoUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +518,7 @@
 				FF7158331BD9462200D19AFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
