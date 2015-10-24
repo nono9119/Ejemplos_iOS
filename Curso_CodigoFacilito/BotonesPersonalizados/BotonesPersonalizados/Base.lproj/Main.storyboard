@@ -74,6 +74,7 @@
                             </mask>
                         </variation>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
                     <connections>
                         <outlet property="label" destination="tgM-fe-xPn" id="0lk-Qy-tJ4"/>
                     </connections>
