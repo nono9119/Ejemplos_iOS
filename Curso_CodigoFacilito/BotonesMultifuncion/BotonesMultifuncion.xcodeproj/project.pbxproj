@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF1716781BDBF56A00FDEE1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1716771BDBF56A00FDEE1E /* main.m */; };
+		FF17167B1BDBF56A00FDEE1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF17167A1BDBF56A00FDEE1E /* AppDelegate.m */; };
+		FF17167E1BDBF56A00FDEE1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF17167D1BDBF56A00FDEE1E /* ViewController.m */; };
+		FF1716811BDBF56A00FDEE1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF17167F1BDBF56A00FDEE1E /* Main.storyboard */; };
+		FF1716831BDBF56A00FDEE1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1716821BDBF56A00FDEE1E /* Assets.xcassets */; };
+		FF1716861BDBF56A00FDEE1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1716841BDBF56A00FDEE1E /* LaunchScreen.storyboard */; };
+		FF1716911BDBF56A00FDEE1E /* BotonesMultifuncionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1716901BDBF56A00FDEE1E /* BotonesMultifuncionTests.m */; };
+		FF17169C1BDBF56A00FDEE1E /* BotonesMultifuncionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF17169B1BDBF56A00FDEE1E /* BotonesMultifuncionUITests.m */; };
+		FF1716AA1BDBF59A00FDEE1E /* tardis_closed.png in Resources */ = {isa = PBXBuildFile; fileRef = FF1716A91BDBF59A00FDEE1E /* tardis_closed.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF17168D1BDBF56A00FDEE1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF17166B1BDBF56A00FDEE1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF1716721BDBF56A00FDEE1E;
+			remoteInfo = BotonesMultifuncion;
+		};
+		FF1716981BDBF56A00FDEE1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF17166B1BDBF56A00FDEE1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF1716721BDBF56A00FDEE1E;
+			remoteInfo = BotonesMultifuncion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF1716731BDBF56A00FDEE1E /* BotonesMultifuncion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BotonesMultifuncion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1716771BDBF56A00FDEE1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF1716791BDBF56A00FDEE1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF17167A1BDBF56A00FDEE1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF17167C1BDBF56A00FDEE1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF17167D1BDBF56A00FDEE1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF1716801BDBF56A00FDEE1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF1716821BDBF56A00FDEE1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF1716851BDBF56A00FDEE1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF1716871BDBF56A00FDEE1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF17168C1BDBF56A00FDEE1E /* BotonesMultifuncionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BotonesMultifuncionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1716901BDBF56A00FDEE1E /* BotonesMultifuncionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BotonesMultifuncionTests.m; sourceTree = "<group>"; };
+		FF1716921BDBF56A00FDEE1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1716971BDBF56A00FDEE1E /* BotonesMultifuncionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BotonesMultifuncionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF17169B1BDBF56A00FDEE1E /* BotonesMultifuncionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BotonesMultifuncionUITests.m; sourceTree = "<group>"; };
+		FF17169D1BDBF56A00FDEE1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1716A91BDBF59A00FDEE1E /* tardis_closed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tardis_closed.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF1716701BDBF56A00FDEE1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1716891BDBF56A00FDEE1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1716941BDBF56A00FDEE1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF17166A1BDBF56A00FDEE1E = {
+			isa = PBXGroup;
+			children = (
+				FF1716A91BDBF59A00FDEE1E /* tardis_closed.png */,
+				FF1716751BDBF56A00FDEE1E /* BotonesMultifuncion */,
+				FF17168F1BDBF56A00FDEE1E /* BotonesMultifuncionTests */,
+				FF17169A1BDBF56A00FDEE1E /* BotonesMultifuncionUITests */,
+				FF1716741BDBF56A00FDEE1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF1716741BDBF56A00FDEE1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF1716731BDBF56A00FDEE1E /* BotonesMultifuncion.app */,
+				FF17168C1BDBF56A00FDEE1E /* BotonesMultifuncionTests.xctest */,
+				FF1716971BDBF56A00FDEE1E /* BotonesMultifuncionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF1716751BDBF56A00FDEE1E /* BotonesMultifuncion */ = {
+			isa = PBXGroup;
+			children = (
+				FF1716791BDBF56A00FDEE1E /* AppDelegate.h */,
+				FF17167A1BDBF56A00FDEE1E /* AppDelegate.m */,
+				FF17167C1BDBF56A00FDEE1E /* ViewController.h */,
+				FF17167D1BDBF56A00FDEE1E /* ViewController.m */,
+				FF17167F1BDBF56A00FDEE1E /* Main.storyboard */,
+				FF1716821BDBF56A00FDEE1E /* Assets.xcassets */,
+				FF1716841BDBF56A00FDEE1E /* LaunchScreen.storyboard */,
+				FF1716871BDBF56A00FDEE1E /* Info.plist */,
+				FF1716761BDBF56A00FDEE1E /* Supporting Files */,
+			);
+			path = BotonesMultifuncion;
+			sourceTree = "<group>";
+		};
+		FF1716761BDBF56A00FDEE1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF1716771BDBF56A00FDEE1E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF17168F1BDBF56A00FDEE1E /* BotonesMultifuncionTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF1716901BDBF56A00FDEE1E /* BotonesMultifuncionTests.m */,
+				FF1716921BDBF56A00FDEE1E /* Info.plist */,
+			);
+			path = BotonesMultifuncionTests;
+			sourceTree = "<group>";
+		};
+		FF17169A1BDBF56A00FDEE1E /* BotonesMultifuncionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF17169B1BDBF56A00FDEE1E /* BotonesMultifuncionUITests.m */,
+				FF17169D1BDBF56A00FDEE1E /* Info.plist */,
+			);
+			path = BotonesMultifuncionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF1716721BDBF56A00FDEE1E /* BotonesMultifuncion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1716A01BDBF56A00FDEE1E /* Build configuration list for PBXNativeTarget "BotonesMultifuncion" */;
+			buildPhases = (
+				FF17166F1BDBF56A00FDEE1E /* Sources */,
+				FF1716701BDBF56A00FDEE1E /* Frameworks */,
+				FF1716711BDBF56A00FDEE1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BotonesMultifuncion;
+			productName = BotonesMultifuncion;
+			productReference = FF1716731BDBF56A00FDEE1E /* BotonesMultifuncion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF17168B1BDBF56A00FDEE1E /* BotonesMultifuncionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1716A31BDBF56A00FDEE1E /* Build configuration list for PBXNativeTarget "BotonesMultifuncionTests" */;
+			buildPhases = (
+				FF1716881BDBF56A00FDEE1E /* Sources */,
+				FF1716891BDBF56A00FDEE1E /* Frameworks */,
+				FF17168A1BDBF56A00FDEE1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF17168E1BDBF56A00FDEE1E /* PBXTargetDependency */,
+			);
+			name = BotonesMultifuncionTests;
+			productName = BotonesMultifuncionTests;
+			productReference = FF17168C1BDBF56A00FDEE1E /* BotonesMultifuncionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF1716961BDBF56A00FDEE1E /* BotonesMultifuncionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1716A61BDBF56A00FDEE1E /* Build configuration list for PBXNativeTarget "BotonesMultifuncionUITests" */;
+			buildPhases = (
+				FF1716931BDBF56A00FDEE1E /* Sources */,
+				FF1716941BDBF56A00FDEE1E /* Frameworks */,
+				FF1716951BDBF56A00FDEE1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF1716991BDBF56A00FDEE1E /* PBXTargetDependency */,
+			);
+			name = BotonesMultifuncionUITests;
+			productName = BotonesMultifuncionUITests;
+			productReference = FF1716971BDBF56A00FDEE1E /* BotonesMultifuncionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF17166B1BDBF56A00FDEE1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Antonio Martínez González";
+				TargetAttributes = {
+					FF1716721BDBF56A00FDEE1E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					FF17168B1BDBF56A00FDEE1E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = FF1716721BDBF56A00FDEE1E;
+					};
+					FF1716961BDBF56A00FDEE1E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = FF1716721BDBF56A00FDEE1E;
+					};
+				};
+			};
+			buildConfigurationList = FF17166E1BDBF56A00FDEE1E /* Build configuration list for PBXProject "BotonesMultifuncion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF17166A1BDBF56A00FDEE1E;
+			productRefGroup = FF1716741BDBF56A00FDEE1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF1716721BDBF56A00FDEE1E /* BotonesMultifuncion */,
+				FF17168B1BDBF56A00FDEE1E /* BotonesMultifuncionTests */,
+				FF1716961BDBF56A00FDEE1E /* BotonesMultifuncionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF1716711BDBF56A00FDEE1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1716AA1BDBF59A00FDEE1E /* tardis_closed.png in Resources */,
+				FF1716861BDBF56A00FDEE1E /* LaunchScreen.storyboard in Resources */,
+				FF1716831BDBF56A00FDEE1E /* Assets.xcassets in Resources */,
+				FF1716811BDBF56A00FDEE1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF17168A1BDBF56A00FDEE1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1716951BDBF56A00FDEE1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF17166F1BDBF56A00FDEE1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF17167E1BDBF56A00FDEE1E /* ViewController.m in Sources */,
+				FF17167B1BDBF56A00FDEE1E /* AppDelegate.m in Sources */,
+				FF1716781BDBF56A00FDEE1E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1716881BDBF56A00FDEE1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1716911BDBF56A00FDEE1E /* BotonesMultifuncionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1716931BDBF56A00FDEE1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF17169C1BDBF56A00FDEE1E /* BotonesMultifuncionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF17168E1BDBF56A00FDEE1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF1716721BDBF56A00FDEE1E /* BotonesMultifuncion */;
+			targetProxy = FF17168D1BDBF56A00FDEE1E /* PBXContainerItemProxy */;
+		};
+		FF1716991BDBF56A00FDEE1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF1716721BDBF56A00FDEE1E /* BotonesMultifuncion */;
+			targetProxy = FF1716981BDBF56A00FDEE1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF17167F1BDBF56A00FDEE1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF1716801BDBF56A00FDEE1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF1716841BDBF56A00FDEE1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF1716851BDBF56A00FDEE1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF17169E1BDBF56A00FDEE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF17169F1BDBF56A00FDEE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF1716A11BDBF56A00FDEE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BotonesMultifuncion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amgonzalez.BotonesMultifuncion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF1716A21BDBF56A00FDEE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BotonesMultifuncion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amgonzalez.BotonesMultifuncion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF1716A41BDBF56A00FDEE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BotonesMultifuncionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amgonzalez.BotonesMultifuncionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BotonesMultifuncion.app/BotonesMultifuncion";
+			};
+			name = Debug;
+		};
+		FF1716A51BDBF56A00FDEE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BotonesMultifuncionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amgonzalez.BotonesMultifuncionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BotonesMultifuncion.app/BotonesMultifuncion";
+			};
+			name = Release;
+		};
+		FF1716A71BDBF56A00FDEE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BotonesMultifuncionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amgonzalez.BotonesMultifuncionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BotonesMultifuncion;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FF1716A81BDBF56A00FDEE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BotonesMultifuncionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amgonzalez.BotonesMultifuncionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BotonesMultifuncion;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF17166E1BDBF56A00FDEE1E /* Build configuration list for PBXProject "BotonesMultifuncion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF17169E1BDBF56A00FDEE1E /* Debug */,
+				FF17169F1BDBF56A00FDEE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1716A01BDBF56A00FDEE1E /* Build configuration list for PBXNativeTarget "BotonesMultifuncion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1716A11BDBF56A00FDEE1E /* Debug */,
+				FF1716A21BDBF56A00FDEE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF1716A31BDBF56A00FDEE1E /* Build configuration list for PBXNativeTarget "BotonesMultifuncionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1716A41BDBF56A00FDEE1E /* Debug */,
+				FF1716A51BDBF56A00FDEE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF1716A61BDBF56A00FDEE1E /* Build configuration list for PBXNativeTarget "BotonesMultifuncionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1716A71BDBF56A00FDEE1E /* Debug */,
+				FF1716A81BDBF56A00FDEE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF17166B1BDBF56A00FDEE1E /* Project object */;
+}
