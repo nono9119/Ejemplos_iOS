@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFE4511C1BFE7E4E00390640 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4511B1BFE7E4E00390640 /* main.m */; };
+		FFE4511F1BFE7E4E00390640 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4511E1BFE7E4E00390640 /* AppDelegate.m */; };
+		FFE451221BFE7E4E00390640 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE451211BFE7E4E00390640 /* ViewController.m */; };
+		FFE451251BFE7E4E00390640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE451231BFE7E4E00390640 /* Main.storyboard */; };
+		FFE451271BFE7E4E00390640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE451261BFE7E4E00390640 /* Assets.xcassets */; };
+		FFE4512A1BFE7E4E00390640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE451281BFE7E4E00390640 /* LaunchScreen.storyboard */; };
+		FFE451351BFE7E4F00390640 /* MultivistaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE451341BFE7E4F00390640 /* MultivistaTests.m */; };
+		FFE451401BFE7E4F00390640 /* MultivistaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4513F1BFE7E4F00390640 /* MultivistaUITests.m */; };
+		FFE451501BFE7EF900390640 /* Vista2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4514E1BFE7EF900390640 /* Vista2ViewController.m */; };
+		FFE4515D1BFE88E200390640 /* Vista2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFE4515C1BFE88E200390640 /* Vista2ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFE451311BFE7E4F00390640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE4510F1BFE7E4E00390640 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFE451161BFE7E4E00390640;
+			remoteInfo = Multivista;
+		};
+		FFE4513C1BFE7E4F00390640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE4510F1BFE7E4E00390640 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFE451161BFE7E4E00390640;
+			remoteInfo = Multivista;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFE451171BFE7E4E00390640 /* Multivista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multivista.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE4511B1BFE7E4E00390640 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFE4511D1BFE7E4E00390640 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFE4511E1BFE7E4E00390640 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFE451201BFE7E4E00390640 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFE451211BFE7E4E00390640 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFE451241BFE7E4E00390640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFE451261BFE7E4E00390640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFE451291BFE7E4E00390640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFE4512B1BFE7E4E00390640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE451301BFE7E4F00390640 /* MultivistaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultivistaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE451341BFE7E4F00390640 /* MultivistaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultivistaTests.m; sourceTree = "<group>"; };
+		FFE451361BFE7E4F00390640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE4513B1BFE7E4F00390640 /* MultivistaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultivistaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE4513F1BFE7E4F00390640 /* MultivistaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultivistaUITests.m; sourceTree = "<group>"; };
+		FFE451411BFE7E4F00390640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE4514D1BFE7EF900390640 /* Vista2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vista2ViewController.h; sourceTree = "<group>"; };
+		FFE4514E1BFE7EF900390640 /* Vista2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vista2ViewController.m; sourceTree = "<group>"; };
+		FFE4515C1BFE88E200390640 /* Vista2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Vista2ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFE451141BFE7E4E00390640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE4512D1BFE7E4F00390640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE451381BFE7E4F00390640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFE4510E1BFE7E4E00390640 = {
+			isa = PBXGroup;
+			children = (
+				FFE451191BFE7E4E00390640 /* Multivista */,
+				FFE451331BFE7E4F00390640 /* MultivistaTests */,
+				FFE4513E1BFE7E4F00390640 /* MultivistaUITests */,
+				FFE451181BFE7E4E00390640 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFE451181BFE7E4E00390640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFE451171BFE7E4E00390640 /* Multivista.app */,
+				FFE451301BFE7E4F00390640 /* MultivistaTests.xctest */,
+				FFE4513B1BFE7E4F00390640 /* MultivistaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFE451191BFE7E4E00390640 /* Multivista */ = {
+			isa = PBXGroup;
+			children = (
+				FFE4511D1BFE7E4E00390640 /* AppDelegate.h */,
+				FFE4511E1BFE7E4E00390640 /* AppDelegate.m */,
+				FFE451201BFE7E4E00390640 /* ViewController.h */,
+				FFE451211BFE7E4E00390640 /* ViewController.m */,
+				FFE451231BFE7E4E00390640 /* Main.storyboard */,
+				FFE451261BFE7E4E00390640 /* Assets.xcassets */,
+				FFE451281BFE7E4E00390640 /* LaunchScreen.storyboard */,
+				FFE4512B1BFE7E4E00390640 /* Info.plist */,
+				FFE4514D1BFE7EF900390640 /* Vista2ViewController.h */,
+				FFE4514E1BFE7EF900390640 /* Vista2ViewController.m */,
+				FFE4511A1BFE7E4E00390640 /* Supporting Files */,
+				FFE4515C1BFE88E200390640 /* Vista2ViewController.xib */,
+			);
+			path = Multivista;
+			sourceTree = "<group>";
+		};
+		FFE4511A1BFE7E4E00390640 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFE4511B1BFE7E4E00390640 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFE451331BFE7E4F00390640 /* MultivistaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFE451341BFE7E4F00390640 /* MultivistaTests.m */,
+				FFE451361BFE7E4F00390640 /* Info.plist */,
+			);
+			path = MultivistaTests;
+			sourceTree = "<group>";
+		};
+		FFE4513E1BFE7E4F00390640 /* MultivistaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFE4513F1BFE7E4F00390640 /* MultivistaUITests.m */,
+				FFE451411BFE7E4F00390640 /* Info.plist */,
+			);
+			path = MultivistaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFE451161BFE7E4E00390640 /* Multivista */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE451441BFE7E4F00390640 /* Build configuration list for PBXNativeTarget "Multivista" */;
+			buildPhases = (
+				FFE451131BFE7E4E00390640 /* Sources */,
+				FFE451141BFE7E4E00390640 /* Frameworks */,
+				FFE451151BFE7E4E00390640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Multivista;
+			productName = Multivista;
+			productReference = FFE451171BFE7E4E00390640 /* Multivista.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFE4512F1BFE7E4F00390640 /* MultivistaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE451471BFE7E4F00390640 /* Build configuration list for PBXNativeTarget "MultivistaTests" */;
+			buildPhases = (
+				FFE4512C1BFE7E4F00390640 /* Sources */,
+				FFE4512D1BFE7E4F00390640 /* Frameworks */,
+				FFE4512E1BFE7E4F00390640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFE451321BFE7E4F00390640 /* PBXTargetDependency */,
+			);
+			name = MultivistaTests;
+			productName = MultivistaTests;
+			productReference = FFE451301BFE7E4F00390640 /* MultivistaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFE4513A1BFE7E4F00390640 /* MultivistaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE4514A1BFE7E4F00390640 /* Build configuration list for PBXNativeTarget "MultivistaUITests" */;
+			buildPhases = (
+				FFE451371BFE7E4F00390640 /* Sources */,
+				FFE451381BFE7E4F00390640 /* Frameworks */,
+				FFE451391BFE7E4F00390640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFE4513D1BFE7E4F00390640 /* PBXTargetDependency */,
+			);
+			name = MultivistaUITests;
+			productName = MultivistaUITests;
+			productReference = FFE4513B1BFE7E4F00390640 /* MultivistaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFE4510F1BFE7E4E00390640 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Antonio Martínez González";
+				TargetAttributes = {
+					FFE451161BFE7E4E00390640 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					FFE4512F1BFE7E4F00390640 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = FFE451161BFE7E4E00390640;
+					};
+					FFE4513A1BFE7E4F00390640 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = FFE451161BFE7E4E00390640;
+					};
+				};
+			};
+			buildConfigurationList = FFE451121BFE7E4E00390640 /* Build configuration list for PBXProject "Multivista" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFE4510E1BFE7E4E00390640;
+			productRefGroup = FFE451181BFE7E4E00390640 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFE451161BFE7E4E00390640 /* Multivista */,
+				FFE4512F1BFE7E4F00390640 /* MultivistaTests */,
+				FFE4513A1BFE7E4F00390640 /* MultivistaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFE451151BFE7E4E00390640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE4512A1BFE7E4E00390640 /* LaunchScreen.storyboard in Resources */,
+				FFE4515D1BFE88E200390640 /* Vista2ViewController.xib in Resources */,
+				FFE451271BFE7E4E00390640 /* Assets.xcassets in Resources */,
+				FFE451251BFE7E4E00390640 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE4512E1BFE7E4F00390640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE451391BFE7E4F00390640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFE451131BFE7E4E00390640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE451221BFE7E4E00390640 /* ViewController.m in Sources */,
+				FFE451501BFE7EF900390640 /* Vista2ViewController.m in Sources */,
+				FFE4511F1BFE7E4E00390640 /* AppDelegate.m in Sources */,
+				FFE4511C1BFE7E4E00390640 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE4512C1BFE7E4F00390640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE451351BFE7E4F00390640 /* MultivistaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE451371BFE7E4F00390640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE451401BFE7E4F00390640 /* MultivistaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFE451321BFE7E4F00390640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFE451161BFE7E4E00390640 /* Multivista */;
+			targetProxy = FFE451311BFE7E4F00390640 /* PBXContainerItemProxy */;
+		};
+		FFE4513D1BFE7E4F00390640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFE451161BFE7E4E00390640 /* Multivista */;
+			targetProxy = FFE4513C1BFE7E4F00390640 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFE451231BFE7E4E00390640 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE451241BFE7E4E00390640 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFE451281BFE7E4E00390640 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE451291BFE7E4E00390640 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFE451421BFE7E4F00390640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFE451431BFE7E4F00390640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFE451451BFE7E4F00390640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Multivista/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amgonzalez.Multivista;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFE451461BFE7E4F00390640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Multivista/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amgonzalez.Multivista;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFE451481BFE7E4F00390640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultivistaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amgonzalez.MultivistaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multivista.app/Multivista";
+			};
+			name = Debug;
+		};
+		FFE451491BFE7E4F00390640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultivistaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amgonzalez.MultivistaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multivista.app/Multivista";
+			};
+			name = Release;
+		};
+		FFE4514B1BFE7E4F00390640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultivistaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amgonzalez.MultivistaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Multivista;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FFE4514C1BFE7E4F00390640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultivistaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amgonzalez.MultivistaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Multivista;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFE451121BFE7E4E00390640 /* Build configuration list for PBXProject "Multivista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE451421BFE7E4F00390640 /* Debug */,
+				FFE451431BFE7E4F00390640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE451441BFE7E4F00390640 /* Build configuration list for PBXNativeTarget "Multivista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE451451BFE7E4F00390640 /* Debug */,
+				FFE451461BFE7E4F00390640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFE451471BFE7E4F00390640 /* Build configuration list for PBXNativeTarget "MultivistaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE451481BFE7E4F00390640 /* Debug */,
+				FFE451491BFE7E4F00390640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFE4514A1BFE7E4F00390640 /* Build configuration list for PBXNativeTarget "MultivistaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE4514B1BFE7E4F00390640 /* Debug */,
+				FFE4514C1BFE7E4F00390640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFE4510F1BFE7E4E00390640 /* Project object */;
+}
